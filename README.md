@@ -18,7 +18,7 @@ Each original project includes runnable synthetic examples, behavioral tests, CI
 
 ## Open-source project collection
 
-Standalone copies retain upstream code, contributor history, descriptions and licenses:
+These repositories retain upstream code, contributor history, descriptions and licenses. My additions focus on practical operations checklists and troubleshooting guidance:
 
 - [K8sGPT](https://github.com/anil7000/k8sgpt) — AI-assisted Kubernetes diagnostics.
 - [Terraform AWS EKS](https://github.com/anil7000/terraform-aws-eks) — Kubernetes infrastructure provisioning.
@@ -27,6 +27,13 @@ Standalone copies retain upstream code, contributor history, descriptions and li
 - [Flux GitOps example](https://github.com/anil7000/flux2-kustomize-helm-example) — Multi-environment declarative delivery.
 - [Dockprom](https://github.com/anil7000/dockprom) — Container and host monitoring.
 - [Sloth](https://github.com/anil7000/sloth) — Prometheus SLO rule generation.
+- [ExternalDNS](https://github.com/anil7000/external-dns) — Kubernetes-driven DNS reconciliation.
+- [Sealed Secrets](https://github.com/anil7000/sealed-secrets) — Encrypted Kubernetes secret delivery.
+- [Argo Rollouts](https://github.com/anil7000/argo-rollouts) — Progressive delivery and canary analysis.
+- [Velero](https://github.com/anil7000/velero) — Kubernetes backup and recovery.
+- [Actions Runner Controller](https://github.com/anil7000/actions-runner-controller) — Kubernetes-based CI runner scaling.
+
+Each repository includes an `OPERATIONS.md` guide linked from its README, covering review questions, diagnostic checks and common failure modes.
 
 ## Current interests
 
@@ -34,4 +41,4 @@ Reliable delivery · Cloud infrastructure · Kubernetes operations · Observabil
 
 ## Development note
 
-The three original projects were developed with AI assistance and are owned and maintained by Anil Kumar Tangirala.
+The three original projects and my operations documentation additions were developed with AI assistance. The original projects are owned and maintained by Anil Kumar Tangirala; upstream projects retain their original authorship and licenses.
