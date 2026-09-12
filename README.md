@@ -12,7 +12,7 @@ I focus on infrastructure automation, observability, operational reliability and
 | [Platform Readiness RAG](https://github.com/anil7000/platform-readiness-rag) | Connects Kubernetes workload findings to inspectable platform standards | Workload-specific checks, curated facts, resource policies and cited explanations |
 | [Change Risk RAG](https://github.com/anil7000/change-risk-rag) | Makes destructive Terraform changes, public ingress and unknown values easier to review | Plan analysis, stateful-resource risks, data minimization and recovery guidance |
 
-These are original projects developed with AI assistance. Each includes runnable synthetic examples, behavioral tests, CI and a README explaining the problem, architecture and limits. They share an original retrieval/transport core but implement different operational logic.
+Each original project includes runnable synthetic examples, behavioral tests, CI and a README explaining the problem, architecture and limits. They share an original retrieval/transport core but implement different operational logic.
 
 **Run locally without an API key**, or configure a compatible model endpoint to enable LLM synthesis and optional embedding retrieval. Model-generated advice and code-fix proposals remain subject to human review.
 
@@ -31,3 +31,7 @@ Standalone copies retain upstream code, contributor history, descriptions and li
 ## Current interests
 
 Reliable delivery · Cloud infrastructure · Kubernetes operations · Observability · Runbook retrieval · LLM-assisted investigation · Safe change review
+
+## Development note
+
+The three original projects were developed with AI assistance and are owned and maintained by Anil Kumar Tangirala.
